@@ -28,6 +28,13 @@
             android:text="TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/tView_SalarioBruto"
+            android:layout_weight="0.06" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/tView_IR"
             android:layout_weight="0.06" />
 
@@ -43,7 +50,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tView_Sindicato"
-            android:layout_weight="0.06" />
+            android:layout_weight="0.06"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
 
         <TextView
             android:text="TextView"

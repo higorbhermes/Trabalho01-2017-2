@@ -28,6 +28,8 @@ public class Main2Activity extends AppCompatActivity {
         double S_Liquido = salario_bruto-(IR+INSS+Sindicato);
         TextView tView_Nome = (TextView) findViewById(R.id.tView_Nome);
         tView_Nome.setText("Nome: "+ nome+"");
+        TextView tView_SalarioBruto = (TextView) findViewById(R.id.tView_SalarioBruto);
+        tView_SalarioBruto.setText("Salário Bruto: "+salario_bruto+"");
         TextView tView_IR = (TextView) findViewById(R.id.tView_IR);
         tView_IR.setText("IR: "+IR+"");
         TextView tView_INSS = (TextView) findViewById(R.id.tView_INSS);
@@ -35,6 +37,6 @@ public class Main2Activity extends AppCompatActivity {
         TextView tView_Sindicato = (TextView) findViewById(R.id.tView_Sindicato);
         tView_Sindicato.setText("Sindicato: "+Sindicato+"");
         TextView tView_SalarioLiquido = (TextView) findViewById(R.id.tView_SalarioLiquido);
-        tView_SalarioLiquido.setText("SalárioLiquido: "+S_Liquido+"");
+        tView_SalarioLiquido.setText("Salário Liquido: "+S_Liquido+"");
     }
 }
