@@ -13,38 +13,44 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:weightSum="1">
 
-        <EditText
+
+        <TextView
+            android:text="TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:ems="10"
-            android:id="@+id/eText_Nome"
-            android:hint="Nome" />
+            android:id="@+id/tView_Nome"
+            android:layout_weight="0.06" />
 
-        <EditText
+        <TextView
+            android:text="TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:ems="10"
-            android:id="@+id/eText_ValorHora"
-            android:hint="Valor da Hora" />
+            android:id="@+id/tView_IR"
+            android:layout_weight="0.06" />
 
-        <EditText
+        <TextView
+            android:text="TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:ems="10"
-            android:id="@+id/eText_HorasTrabalhadas"
-            android:hint="Número de horas trabalhadas" />
+            android:id="@+id/tView_INSS"
+            android:layout_weight="0.06" />
 
-        <Button
-            android:text="Calcular"
+        <TextView
+            android:text="TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/bt_Calcular" />
+            android:id="@+id/tView_Sindicato"
+            android:layout_weight="0.06" />
 
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tView_SalarioLiquido"
+            android:layout_weight="0.06" />
     </LinearLayout>
 
 </LinearLayout>
